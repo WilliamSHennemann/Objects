@@ -1,10 +1,7 @@
 package Exercicio_Conta_Bancaria;
 public class Operacoes {
 
-    float soma;
-    float subtracao;
-    float multiplicacao;
-    float exponenciacao;
+    private double raio;
 
     float soma (float n1, float n2){
         return n1 + n2;
@@ -22,4 +19,17 @@ public class Operacoes {
         }  }
     float exponenciacao (float n1){
         return n1 * n1;  }
+
+    float area_quadrado(float n1){
+        return n1 * n1;
+    }
+
+    double circulo(double raio) {
+        this.raio = raio;
+        return raio;
+    }
+
+    public double calcularCirculo(double raio) {
+        return Math.PI * Math.pow(raio, 2);
+    }
 }

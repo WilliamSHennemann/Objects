@@ -26,5 +26,12 @@ public class Calculadora {
 
         n1 = Float.parseFloat(IO.readln("Digite o número para elevar ao quadrado: "));
         System.out.println("Resultado do quadrado: " + operacoes.exponenciacao(n1));
+
+        n1 = Float.parseFloat(IO.readln("Digite o tamanho do lado do quadrada para calcular sua area: "));
+        System.out.println("Resultado do quadrado: " + operacoes.area_quadrado(n1));
+
+        double raio = Double.parseDouble(IO.readln("Digite o raio circulo: "));
+        System.out.printf("A área do círculo é: %.2f%n", operacoes.calcularCirculo(raio));
+
     }
 }
