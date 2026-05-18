@@ -10,7 +10,6 @@ public class Lista {
         String nome, eMail, endereco;
         int telefone;
 
-        // Loop de repetição controlado por condição e espaço
         while (continuar.equalsIgnoreCase("S") && contador < tamanhoMaximo) {
 
             nome = IO.readln("Digite o nome da pessoa: ");
