@@ -52,7 +52,6 @@ public class Veiculo {
         System.out.println("Vagas ocupadas: " + vagasOcupadas);
     }
 
-    // Getters
     public String getPlaca() { return placa; }
     public String getModelo() { return modelo; }
     public int getHorasEstacionado() { return horasEstacionado; }
